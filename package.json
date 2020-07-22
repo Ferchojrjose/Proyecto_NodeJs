@@ -1,0 +1,19 @@
+{
+  "name": "proyecto_stack",
+  "version": "1.0.0",
+  "description": "Primer Proyecto de Node Js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ferchojrjose/Proyecto_NodeJs.git"
+  },
+  "author": "Fernando Serrano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ferchojrjose/Proyecto_NodeJs/issues"
+  },
+  "homepage": "https://github.com/Ferchojrjose/Proyecto_NodeJs#readme"
+}
