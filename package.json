@@ -4,6 +4,7 @@
   "description": "Primer Proyecto de Node Js",
   "main": "index.html",
   "scripts": {
+    "dev" : "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ferchojrjose/Proyecto_NodeJs/issues"
   },
-  "homepage": "https://github.com/Ferchojrjose/Proyecto_NodeJs#readme"
+  "homepage": "https://github.com/Ferchojrjose/Proyecto_NodeJs#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
