@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS, referencia boostrap -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+
     <title>Node Js</title>
   </head>
   <body>
@@ -17,32 +21,110 @@
 
     <div class="container">
       
-      <!-- Primera Fila -->
-      <div class="row">
-        <div class="col">
-          <p> <h2> Hidro Lavadora</h2>  este producto se utiliza para lavar carros</p>
-        </div>
-        <div class="col">
-          <p> <h2> Barreno BTB</h2>  para uso del hogar</p>
-        </div>
-        <div class="col">
-          <p> <h2> Compresot BTB</h2> para uso en el taller</p>
+       <!-- Titulo Productos. -->
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <h2> Productos </h2>
         </div>
       </div>
 
-      <!-- Segunda fila -->
-      <div class="row">
-        <div class="col">
-          <p> <h2> Cierra de Mano</h2> para uso en el tallet</p>
+      <!-- Productos -->
+      <div class="d-flex flex-wrap flex-row">
+        <div class="card-product d-flex flex-column justify-content-between">
+          <div>
+            <p> 
+              <h3> Antorcha</h3>
+               <p> 
+                 Precio: Q570 <br>
+                 longuitud: 4 metros.
+               </p>
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-comprar"> Comprar </button>
+          </div>
         </div>
-        <div class="col">
-          <p> <h2> Pulidora</h2> para uso del hogar</p>
+
+        <div class="card-product d-flex flex-column justify-content-between">
+          <div>
+            <p>
+              <h3> Aspiradora </h3> 
+              <p> 
+                 Precio: Q440 <br>
+                 Capacidad: 1 Galon <br>
+                 Potencia: 1.5 hp
+              </p> 
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-comprar"> Comprar </button>
+          </div>
         </div>
-        <div class="col">
-          <p> <h2> Careta</h2> para uso en el taller</p>
+
+        <div class=" card-product d-flex flex-column justify-content-between">
+          <div>
+            <p> 
+              <h3> Atornillador </h3>
+              <p> 
+                Precio: Q270 <br>
+                Voltaje: 3.6v
+              </p>
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-comprar"> Comprar </button>
+          </div>
         </div>
+
+        <div class="card-product d-flex flex-column justify-content-between">
+          <div>
+            <p> 
+              <h3> Barreno</h3>
+              <p>
+                Precio: Q1,400 <br>
+                Potencia: 20v <br>
+                Mandril: 1/2
+              </p>
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-comprar"> Comprar </button>
+          </div>
+        </div>
+
+        <div class="card-product d-flex flex-column justify-content-between">
+          <div>
+            <p> 
+              <h3> Canteadora</h3>
+               <p>
+                 Precio: Q4,160 <br>
+                 Voltaje: 110v <br>
+                 Potencia: 1 HP <br>
+                 Pulgadas: 6x46 
+               </p>
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-comprar"> Comprar </button>
+          </div>
+        </div>
+
+        <div class="card-product d-flex flex-column justify-content-between">
+          <div>
+            <p> 
+              <h3>Cargador</h3>
+               <p>
+                 Precio: Q150 <br>
+                 Voltaje: 6v/12v 
+               </p>
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-comprar"> Comprar </button>
+          </div>
+        </div>
+
       </div>
-      
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -50,4 +132,32 @@
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
+
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-colum">
+        <a href="https://www.facebook.com"> Facebook </a>
+      </div>
+
+      <div class="col-sm-4">
+        <p> 
+          <h3> Informacion</h3>
+           <p>
+             Direccion: 11 avenida 5-11 z19 <br>
+             Telefono: 5555 
+           </p>
+        </p>
+      </div>
+
+      <div class="col-sm-4  align-items-end">
+        <p> 
+          <h3> Terminos y conticiones</h3>
+           <p>
+             Aceptar todos los terminos y condiciones
+           </p>
+        </p>
+      </div>
+    </div>
+  </footer>
+
 </html>
